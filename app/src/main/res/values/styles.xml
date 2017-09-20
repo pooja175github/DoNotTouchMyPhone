@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/light_purple</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="colorPrimaryDark">#663366</item>
+    </style>
+    <!--<style android:name="Theme" parent="Theme.AppCompat.DeviceDefault" name="swipeToDismiss">-->
+        <!--<item name="android:windowSwipeToDismiss" tools:targetApi="kitkat_watch">false</item>-->
+    <!--</style>-->
+    <!-- style for the action bar backgrounds -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar"/>
+
+    <style name="Theme.AppCompat.DeviceDefault"></style>
+</resources>

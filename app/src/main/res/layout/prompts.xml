@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4"
+        android:layout_marginTop="10dp"
+
+        >
+    <EditText
+        android:id="@+id/editTextDialogUserInput"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:inputType="numberPassword"
+        android:padding="10dp"
+        android:hint="Enter new PIN (4 digit number)">
+        <requestFocus />
+    </EditText>
+        <CheckBox
+            android:id="@+id/CheckBox_ShowPwd"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="@string/show_pwd"
+            android:layout_gravity="left"
+            android:padding="10dp"
+            />
+
+
+    <TextView
+        android:id="@+id/TextView_sec_qes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        android:layout_weight="0.5">
+
+    </TextView>
+    <EditText
+        android:id="@+id/editText_sec_ans"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:hint="Your answer"
+        android:padding="10dp"
+       >
+        <requestFocus />
+    </EditText>
+</LinearLayout>
+</LinearLayout>

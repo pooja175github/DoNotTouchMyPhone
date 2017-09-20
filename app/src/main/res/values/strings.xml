@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Don\'t touch my phone</string>
+    <string name="show_pwd">Show password</string>
+
+    <string-array name="security_question">
+        <item>In which city you were born ?</item>
+        <item>In which state you were born ?</item>
+        <item>Who was your childhood hero ?</item>
+        <item>What was the name of your favorite pet ?</item>
+        <item>What was you first job ?</item>
+        <item>What is your favorite animal ?</item>
+        <item>What is your favorite childhood book ?</item>
+    </string-array>
+
+    <!-- ON,OFF,TEST -->
+    <string name="adtype">TEST</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3074975588717631/8722129100</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3074975588717631/1198862300</string>
+
+</resources>

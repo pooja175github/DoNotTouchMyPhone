@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pragma.com.donottouchmyphone">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name="pragma.com.donottouchmyphone.MainActivity" />
+
+        <service
+            android:name="pragma.com.donottouchmyphone.Backgroundservice"
+            android:enabled="true" />
+
+        <activity android:name="pragma.com.donottouchmyphone.Index">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="pragma.com.donottouchmyphone.Active"
+           />
+
+        <activity android:name="pragma.com.donottouchmyphone.Pin" />
+        <activity android:name="pragma.com.donottouchmyphone.Deactivate" />
+        <activity android:name="pragma.com.donottouchmyphone.Enter_pin"></activity>
+
+    </application>
+
+</manifest>
