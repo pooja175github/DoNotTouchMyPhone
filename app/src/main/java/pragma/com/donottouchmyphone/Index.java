@@ -28,11 +28,11 @@ sp_pin=getSharedPreferences(PIN_NUMBER, Context.MODE_PRIVATE);
 sp_ques=getSharedPreferences(SECURITY_QUESTION, Context.MODE_PRIVATE);
 sp_ans=getSharedPreferences(SECURITY_ANSWER, Context.MODE_PRIVATE);
 sp_notice=getSharedPreferences(NOTIFICATION, Context.MODE_PRIVATE);
-        pin=sp_pin.getString("pin","no_value_found");
+        pin=sp_pin.getString("Enter suitable pin","no_value_found");
         value=sp_notice.getString("value","no_value_found");
 
 
-        Log.e("pin",""+pin);
+        Log.e("Enter suitable pin",""+pin);
         //Log.e("test in index",""+Active.test);
         Log.e("notification",""+value);
 //Boolean b=Backgroundservice.v.hasVibrator();
